@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    position: relative !important;
+    padding-bottom: 4em !important;
+}
+
+header {
+    height: 40vh;
+}
+
+main {
+    background-color: white;
+    height: 85vh;
+}
+
+.footer {
+    padding: 1em 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60vh;
+}
+.navbar {
+    height: 18vh !important;
+}
+
+.banner_home {
+    background-image: url(Banner\ Libros\ al\ Ruedo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+
+.text_banner {
+    font-size: x-large;
+}
+
+.animation_logo {
+    animation-timing-function: ease;
+    animation-duration: 3s;
+    animation-delay: 01s;
+    /* el keyframe se identifica con un nombre */
+    animation-name: animation_logo;
+}
+@keyframes animation_logo {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+
+.banner_editorial {
+    background-image: url(Stand_Libros\ al\ ruedo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+
